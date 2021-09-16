@@ -10,9 +10,11 @@ public class ATm {
         System.out.print("Enter the withdrawal amount- ");
         int w= sc.nextInt();                        //w=withdrawal amount
         if(w>i) System.out.println("insufficient balance");
-        else {
-            i=i-(w+0.50);                           //calculation
-            System.out.println("Remaining balance= "+i);
+        if(w%5==0) {
+            i = i - (w + 0.50);                           //calculation
+            System.out.println("Remaining balance= " + i);
         }
+        else System.out.println("invalid input");
+
     }
 }
