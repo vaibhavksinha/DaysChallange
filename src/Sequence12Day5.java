@@ -14,9 +14,9 @@ public class Sequence12Day5 {
         int n= sc.nextInt();
         for (i=1;i<=n;i++){
             for (j=1;j<=i;j++) {
-                System.out.println(" " + j + "\t");
+                System.out.print(" " + j + "\t");
             }
-            System.out.println("\n");
+            System.out.print("\n");
         }
 
 
