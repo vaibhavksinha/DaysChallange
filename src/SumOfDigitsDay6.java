@@ -1,3 +1,4 @@
+//You're given an integer N. Write a program to calculate the sum of all the digits of N
 import java.util.Scanner;
 public class SumOfDigitsDay6 {
     public static void main(String[] args) {
